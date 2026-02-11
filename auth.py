@@ -17,3 +17,8 @@ def get_user(user_id):
         2: {"id": 2, "name": "bob", "email": "bob@example.com"},
     }
     return users.get(user_id)
+
+
+def hello():
+    """Return a greeting message."""
+    return "Hello from CodingTask Chat UI"
