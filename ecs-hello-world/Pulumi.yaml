@@ -1,0 +1,10 @@
+name: ecs-hello-world
+description: ECS Fargate Hello World deployment
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
