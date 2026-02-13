@@ -1,0 +1,14 @@
+{
+    "name": "ecs-hello-world",
+    "version": "1.0.0",
+    "description": "An ECS Fargate service running a Hello World container behind an ALB",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^20"
+    },
+    "dependencies": {
+        "@pulumi/aws": "^7.0.0",
+        "@pulumi/awsx": "^2.0.0",
+        "@pulumi/pulumi": "^3.0.0"
+    }
+}

@@ -1,0 +1,7 @@
+name: ecs-hello-world
+runtime: nodejs
+description: An ECS Fargate service running a Hello World container behind an ALB
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: ecs-hello-world
