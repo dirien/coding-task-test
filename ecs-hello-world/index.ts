@@ -73,7 +73,6 @@ const logGroup = new aws.cloudwatch.LogGroup("hello-logs", {
 const service = new awsx.ecs.FargateService("hello-service", {
     cluster: cluster.arn,
     desiredCount: desiredCount,
-    assignPublicIp: false,
     networkConfiguration: {
         subnets: vpc.privateSubnetIds,
         securityGroups: [],     // awsx creates a default SG when empty
